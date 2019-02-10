@@ -9,9 +9,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: global::Android.Runtime.ResourceDesignerAttribute("InputParticlesComponent.Android.Resource", IsApplication=false)]
+[assembly: global::Android.Runtime.ResourceDesignerAttribute("InputParticles.Android.Resource", IsApplication=false)]
 
-namespace InputParticlesComponent.Android
+namespace InputParticles.Android
 {
 	
 	
