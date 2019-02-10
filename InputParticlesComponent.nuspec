@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+	<metadata>
+		<id>InputParticlesComponent</id>
+		<version>2.0.0</version>
+		<title>InputParticlesComponent</title>
+		<authors>dmanning23</authors>
+		<owners>dmanning23</owners>
+		<projectUrl>https://github.com/dmanning23/InputParticlesComponent</projectUrl>
+		<licenseUrl>https://github.com/dmanning23/InputParticlesComponent/blob/master/LICENSE.txt</licenseUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Library for popping up little particle effect whenever the user taps the screen in a MonoGame project</description>
+		<releaseNotes />
+		<copyright>Copyright 2016</copyright>
+		<tags>android, ios, windows universal, monogame, xamarin</tags>
+		<dependencies>
+
+			<!--Xamarin.Android-->
+			<group targetFramework="MonoAndroid10">
+				<dependency id="MonoGame.Framework.Android" version="3.7"/>
+				<dependency id="FilenameBuddy" version="2.0"/>
+				<dependency id="FontBuddy" version="2.0"/>
+				<dependency id="GameTimer" version="2.0"/>
+				<dependency id="HadoukInput" version="2.0"/>
+				<dependency id="InputHelper" version="2.0"/>
+				<dependency id="MatrixExtensions" version="2.0"/>
+				<dependency id="MenuBuddy" version="2.0"/>
+				<dependency id="MouseBuddy" version="2.0"/>
+				<dependency id="ParticleBuddy" version="2.0"/>
+				<dependency id="PrimitiveBuddy" version="2.0"/>
+				<dependency id="RandomExtensions.dmanning23" version="2.0"/>
+				<dependency id="ResolutionBuddy" version="2.0"/>
+				<dependency id="StateMachineBuddy" version="2.0"/>
+				<dependency id="TouchScreenBuddy" version="2.0"/>
+				<dependency id="Vector2Extensions" version="2.0"/>
+				<dependency id="XmlBuddy" version="2.0"/>
+			</group>
+
+			<!--Xamarin.iOS Unified-->
+			<group targetFramework="Xamarin.iOS10">
+				<dependency id="MonoGame.Framework.iOS" version="3.7"/>
+				<dependency id="FilenameBuddy" version="2.0"/>
+				<dependency id="FontBuddy" version="2.0"/>
+				<dependency id="GameTimer" version="2.0"/>
+				<dependency id="HadoukInput" version="2.0"/>
+				<dependency id="InputHelper" version="2.0"/>
+				<dependency id="MatrixExtensions" version="2.0"/>
+				<dependency id="MenuBuddy" version="2.0"/>
+				<dependency id="MouseBuddy" version="2.0"/>
+				<dependency id="ParticleBuddy" version="2.0"/>
+				<dependency id="PrimitiveBuddy" version="2.0"/>
+				<dependency id="RandomExtensions.dmanning23" version="2.0"/>
+				<dependency id="ResolutionBuddy" version="2.0"/>
+				<dependency id="StateMachineBuddy" version="2.0"/>
+				<dependency id="TouchScreenBuddy" version="2.0"/>
+				<dependency id="Vector2Extensions" version="2.0"/>
+				<dependency id="XmlBuddy" version="2.0"/>
+			</group>
+
+			<group targetFramework="net451">
+				<dependency id="MonoGame.Framework.WindowsDX" version="3.7"/>
+				<dependency id="FilenameBuddy" version="2.0"/>
+				<dependency id="FontBuddy" version="2.0"/>
+				<dependency id="GameTimer" version="2.0"/>
+				<dependency id="HadoukInput" version="2.0"/>
+				<dependency id="InputHelper" version="2.0"/>
+				<dependency id="MatrixExtensions" version="2.0"/>
+				<dependency id="MenuBuddy" version="2.0"/>
+				<dependency id="MouseBuddy" version="2.0"/>
+				<dependency id="ParticleBuddy" version="2.0"/>
+				<dependency id="PrimitiveBuddy" version="2.0"/>
+				<dependency id="RandomExtensions.dmanning23" version="2.0"/>
+				<dependency id="ResolutionBuddy" version="2.0"/>
+				<dependency id="StateMachineBuddy" version="2.0"/>
+				<dependency id="TouchScreenBuddy" version="2.0"/>
+				<dependency id="Vector2Extensions" version="2.0"/>
+				<dependency id="XmlBuddy" version="2.0"/>
+			</group>
+
+		</dependencies>
+	</metadata>
+	<files>
+
+		<!--Xamarin.Android-->
+		<file src="InputParticlesComponent.Android\bin\Release\InputParticlesComponent.Android.pdb" target="lib\MonoAndroid10\InputParticlesComponent.Android.pdb" />
+		<file src="InputParticlesComponent.Android\bin\Release\InputParticlesComponent.Android.dll" target="lib\MonoAndroid10\InputParticlesComponent.Android.dll" />
+
+		<!--Xamarin.iOS Unified-->
+		<file src="InputParticlesComponent.iOS\bin\Release\InputParticlesComponent.iOS.pdb" target="lib\Xamarin.iOS10\InputParticlesComponent.iOS.pdb" />
+		<file src="InputParticlesComponent.iOS\bin\Release\InputParticlesComponent.iOS.dll" target="lib\Xamarin.iOS10\InputParticlesComponent.iOS.dll" />
+
+		<!--WindowsDX-->
+		<file src="InputParticlesComponent.WindowsDX\bin\Release\InputParticlesComponent.WindowsDX.pdb" target="lib\net451\InputParticlesComponent.WindowsDX.pdb" />
+		<file src="InputParticlesComponent.WindowsDX\bin\Release\InputParticlesComponent.WindowsDX.dll" target="lib\net451\InputParticlesComponent.WindowsDX.dll" />
+
+	</files>
+</package>
