@@ -5,7 +5,7 @@ using Microsoft.Xna.Framework.Graphics;
 using ParticleBuddy;
 using System;
 
-namespace InputParticlesComponent
+namespace InputParticles
 {
 	/// <summary>
 	/// THis is a game component that adds particle effects whenever the user clicks a UI element

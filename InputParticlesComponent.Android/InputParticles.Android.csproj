@@ -11,7 +11,7 @@
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>InputParticlesComponent.Android</RootNamespace>
-    <AssemblyName>InputParticlesComponent.Android</AssemblyName>
+    <AssemblyName>InputParticles.Android</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
     <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
@@ -69,7 +69,7 @@
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
   </ItemGroup>
-  <Import Project="..\InputParticlesComponent,SharedProject\InputParticlesComponent,SharedProject.projitems" Label="Shared" />
+  <Import Project="..\InputParticlesComponent.SharedProject\InputParticlesComponent,SharedProject.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

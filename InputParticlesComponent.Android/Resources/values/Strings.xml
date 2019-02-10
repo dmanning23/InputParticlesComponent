@@ -1,4 +1,4 @@
 <resources>
     <string name="hello">Hello World, Click Me!</string>
-    <string name="app_name">InputParticlesComponent.Android</string>
+    <string name="app_name">InputParticles.Android</string>
 </resources>
